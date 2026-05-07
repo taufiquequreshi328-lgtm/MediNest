@@ -6,26 +6,142 @@ font-family: "Ubuntu", sans-serif;
 */
 
 /* Common CSS Start */
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Ubuntu", sans-serif;
 }
-p{
+
+p {
     font-family: "Roboto", sans-serif;
 }
-img{
+
+img {
     width: 100%;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Common CSS End */
 
 /* Header Section Start */
-.medi-logo h2{
-    font-style: 30px;
+#topHeader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    padding: 5px 0;
+}
+
+#topHeader.scrolled {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 18px;
+    background-color: #fff;
+}
+
+.medi-logo h2 {
+    font-size: 30px;
     font-weight: 700;
     margin: 0;
     color: #1f2f31;
 }
-.medi-logo span{
+
+.medi-logo span {
     color: #099aa7;
 }
+
+.navbar nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar nav ul li {
+    padding: 18px 15px;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+    transition: all .6s;
+    cursor: pointer;
+}
+
+.navbar ul li.active {
+    color: #099aa7;
+}
+
+.navbar ul li:hover {
+    color: #099aa7;
+}
+
+.top-btn a {
+    color: #fff;
+    background: #099aa7;
+    padding: 8px 26px;
+    margin: 0;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
 /* Header Section End */
+#mediBanner {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    position: relative;
+    background: linear-gradient(135deg,
+            color-mix(in srgb, #099aa7, transparent 95%) 0%,
+            color-mix(in srgb, #fff, transparent 0%) 100%);
+    overflow: hidden;
+}
+
+.bnr-img{
+    position: relative;
+}
+.bnr-img img {
+    border-radius: 30px;
+    box-shadow: 0px 30px 80px color-mix(in srgb, #099aa7, transparent 80%);
+    transform: rotate(-2deg);
+    transition: all 0.3s ease;
+}
+
+.bnr-img img:hover {
+    transform: rotate(0deg) scale(1.02);
+}
+
+.bnr-card-content {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 18px;
+    box-shadow: 0 20px 60px color-mix(in srgb, #363f40, transparent 85%);
+    backdrop-filter: blur(20px);
+    border: 1px solid color-mix(in srgb, #099aa7, transparent 80%);
+}
+.pos-card {
+    top: 40px;
+    left: -43px;
+    z-index: 999;
+}
+.bnr-card-content i {
+    font-size: 32px;
+    color: #099aa7;
+    padding: 15px;
+    background-color: color-mix(in srgb, #099aa7, transparent 90%);
+    border-radius: 15px;
+}
+
+.card-text span:nth-child(1) {
+    font-size: 14px;
+    color: color-mix(in srgb, #363f40, transparent 40%);
+    font-weight: 500;
+}
+
+.card-text span:nth-child(2) {
+    font-size: 18px;
+    color: #1f2f31;
+    font-weight: 700;
+}
