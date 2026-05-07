@@ -100,9 +100,10 @@ a {
     overflow: hidden;
 }
 
-.bnr-img{
+.bnr-img {
     position: relative;
 }
+
 .bnr-img img {
     border-radius: 30px;
     box-shadow: 0px 30px 80px color-mix(in srgb, #099aa7, transparent 80%);
@@ -123,11 +124,13 @@ a {
     backdrop-filter: blur(20px);
     border: 1px solid color-mix(in srgb, #099aa7, transparent 80%);
 }
+
 .pos-card {
     top: 40px;
     left: -43px;
     z-index: 99;
 }
+
 .bnr-card-content i {
     font-size: 32px;
     color: #099aa7;
@@ -148,13 +151,14 @@ a {
     font-weight: 700;
 }
 
-.bnr-badge{
+.bnr-badge {
     margin-bottom: 24px;
 }
-.bnr-badge span{
+
+.bnr-badge span {
     display: inline-block;
     background: linear-gradient(135deg, #099aa7,
- color-mix(in srgb, #099aa7, black 20%));
+            color-mix(in srgb, #099aa7, black 20%));
     color: #fff;
     padding: 8px 20px;
     border-radius: 25px;
@@ -163,48 +167,56 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
-.bnr-content h1{
+
+.bnr-content h1 {
     font-size: 56px;
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 24px;
     color: #1f2f31;
 }
-.bnr-content p{
+
+.bnr-content p {
     font-size: 19px;
     line-height: 1.7;
-    color: 
- color-mix(in srgb, #363f40, transparent 20%);
+    color:
+        color-mix(in srgb, #363f40, transparent 20%);
     margin-bottom: 40px;
 }
-.bnr-starts{
+
+.bnr-starts {
     margin-bottom: 48px;
 }
-.start-group i{
+
+.start-group i {
     font-size: 40px;
     color: #099aa7;
     padding: 15px;
     background: linear-gradient(135deg,
- color-mix(in srgb, #099aa7, transparent 90%) 0%,
- color-mix(in srgb, #099aa7, transparent 95%) 100%);
+            color-mix(in srgb, #099aa7, transparent 90%) 0%,
+            color-mix(in srgb, #099aa7, transparent 95%) 100%);
     border-radius: 20px;
 }
-.start-text span:nth-child(1){
+
+.start-text span:nth-child(1) {
     font-size: 28px;
     font-weight: 700;
     color: #1f2f31;
     line-height: 1;
 }
-.start-text span:nth-child(2){
+
+.start-text span:nth-child(2) {
     font-size: 14px;
-    color: 
- color-mix(in srgb, #363f40, transparent 40%);
+    color:
+        color-mix(in srgb, #363f40, transparent 40%);
     font-weight: 500;
 }
-.cta-btns{
+
+.cta-btns {
     margin-bottom: 40px;
 }
-.cta-btns a:nth-child(1){
+
+.cta-btns a:nth-child(1) {
     padding: 15px 30px;
     font-size: 16px;
     font-weight: 600;
@@ -215,16 +227,17 @@ a {
     align-items: center;
     gap: 0.5rem;
     background: linear-gradient(135deg, #099aa7,
- color-mix(in srgb, #099aa7, black 20%));
+            color-mix(in srgb, #099aa7, black 20%));
     border: none;
     color: #fff;
 }
-.cta-btns a:nth-child(1):hover{
+
+.cta-btns a:nth-child(1):hover {
     transform: translateY(-3px);
-    box-shadow: 0 15px 40px 
- color-mix(in srgb, #099aa7, transparent 60%);
+    box-shadow: 0 15px 40px color-mix(in srgb, #099aa7, transparent 60%);
 }
-.cta-btns a:nth-child(2){
+
+.cta-btns a:nth-child(2) {
     padding: 15px 30px;
     font-size: 16px;
     font-weight: 600;
@@ -234,17 +247,18 @@ a {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-        background-color: transparent;
-    border: 2px solid
- color-mix(in srgb, #363f40, transparent 80%);
+    background-color: transparent;
+    border: 2px solid color-mix(in srgb, #363f40, transparent 80%);
     color: #363f40;
 }
-.cta-btns a:nth-child(2):hover{
+
+.cta-btns a:nth-child(2):hover {
     background-color: #099aa7;
     border-color: #099aa7;
     color: #fff;
 }
-.quick-items a{
+
+.quick-items a {
     display: flex;
     align-items: center;
     gap: 0.75rem;
@@ -253,13 +267,156 @@ a {
     transition: all 0.3s ease;
     font-weight: 500;
 }
-.quick-items a i{
+
+.quick-items a i {
     font-size: 20px;
     color: #099aa7;
 }
-.quick-items a:hover{
+
+.quick-items a:hover {
     color: #099aa7;
     transform: translateX(5px);
 }
 
 /* Banner Section End */
+
+/* About Section Start */
+
+#aboutSection {
+    padding: 120px 0;
+    background: linear-gradient(135deg, #fff 0%,
+            color-mix(in srgb, #fff, #099aa7 3%) 100%);
+}
+
+.about-top-content h2 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 32px;
+    background: linear-gradient(135deg, #1f2f31, #099aa7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.about-top-content p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: color-mix(in srgb, #363f40, transparent 25%);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about-image-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+    height: 500px;
+}
+
+.primary-image {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 25px 80px color-mix(in srgb, #363f40, transparent 88%);
+}
+
+.primary-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.primary-image:hover img {
+    transform: scale(1.1);
+}
+
+.small-image {
+    border-radius: 12px;
+    overflow: hidden;
+    flex: 1;
+    box-shadow: 0 15px 40px color-mix(in srgb, #363f40, transparent 92%);
+}
+
+.small-image img {
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.small-image:hover img {
+    transform: scale(1.1);
+}
+
+.about-content-box {
+    background: #fff;
+    padding: 32px;
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-bottom: 40px;
+    border-left: 4px solid #099aa7;
+    box-shadow: 0 8px 30px color-mix(in srgb, #363f40, transparent 95%);
+}
+
+.content-box-icon {
+    background: color-mix(in srgb, #099aa7, transparent 88%);
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.content-box-icon i {
+    color: #099aa7;
+    font-size: 28px;
+}
+
+.content-box-content h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #1f2f31;
+}
+
+.content-box-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: color-mix(in srgb, #363f40, transparent 30%);
+    margin: 0;
+}
+
+.feature-list{
+    margin-bottom: 40px;
+}
+.feature-icon i{
+    color: #099aa7;
+    font-size: 1.25rem;
+}
+.feature-item span{
+    font-size: 17px;
+    color: color-mix(in srgb, #363f40, transparent 20%);
+    font-weight: 400;
+    margin: 0;
+}
+.metric-number span{
+    font-size: 44px;
+    font-weight: 300;
+    color: #099aa7;
+    display: block;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+.metric-row p{
+    font-size: 15px;
+    color: color-mix(in srgb, #363f40, transparent 40%);
+    font-weight: 500;
+}
+/* About Section End */
