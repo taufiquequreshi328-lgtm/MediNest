@@ -847,7 +847,11 @@ a {
     font-weight: 400;
 }
 
-.call-card{
+.call-card-group {
+    margin-bottom: 64px;
+}
+
+.call-card {
     background: #fff;
     padding: 48px 32px;
     border-radius: 12px;
@@ -857,13 +861,14 @@ a {
     border: 1px solid color-mix(in srgb, #363f40, transparent 92%);
     margin-bottom: 32px;
 }
-.call-card:hover{
-    box-shadow: 0 25px 50px 
- color-mix(in srgb, #363f40, transparent 88%);
-    border-color: 
- color-mix(in srgb, #099aa7, transparent 80%);
+
+.call-card:hover {
+    box-shadow: 0 25px 50px color-mix(in srgb, #363f40, transparent 88%);
+    border-color:
+        color-mix(in srgb, #099aa7, transparent 80%);
 }
-.call-card-icon{
+
+.call-card-icon {
     width: 70px;
     height: 70px;
     margin: 0 auto 2rem;
@@ -874,29 +879,35 @@ a {
     border-radius: 50%;
     transition: all 0.4s ease;
 }
-.call-card:hover .call-card-icon{
+
+.call-card:hover .call-card-icon {
     background: #099aa7;
 }
-.call-card-icon i{
+
+.call-card-icon i {
     font-size: 32px;
     color: #099aa7;
     transition: all 0.4s ease;
 }
-.call-card:hover i{
+
+.call-card:hover i {
     color: #fff;
 }
-.call-card-content h4{
+
+.call-card-content h4 {
     font-size: 22px;
     font-weight: 400;
     margin-bottom: 19px;
     color: #1f2f31;
 }
-.call-card-content p{
+
+.call-card-content p {
     color: color-mix(in srgb, #363f40, transparent 30%);
     line-height: 1.7;
     margin-bottom: 24px;
 }
-.call-card-content a{
+
+.call-card-content a {
     color: #099aa7;
     text-decoration: none;
     font-weight: 500;
@@ -904,4 +915,135 @@ a {
     transition: all 0.3s ease;
     display: inline-block;
 }
+
+.call-contact-banner {
+    background: linear-gradient(135deg, #099aa7 0%,
+            color-mix(in srgb, #099aa7, black 15%) 100%);
+    border-radius: 16px;
+    padding: 48px;
+    color: #fff;
+}
+
+.ct-icon {
+    width: 60px;
+    height: 60px;
+    background: color-mix(in srgb, #fff, transparent 85%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 24px;
+}
+
+.ct-icon i {
+    font-size: 24px;
+    color: #fff;
+}
+
+.ct-text h5 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.ct-text p {
+    color: color-mix(in srgb, #fff, transparent 25%);
+    margin: 0;
+    line-height: 1.6;
+}
+
+.ct-action-btn a {
+    background: #fff;
+    color: #1f2f31;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.ct-action-btn a:hover {
+    background:
+        color-mix(in srgb, #fff, transparent 10%);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px color-mix(in srgb, #363f40, transparent 75%);
+}
+
+.ct-action-btn i {
+    margin-right: 8px;
+    font-size: 17px;
+}
+
 /* Call to Action Section End */
+
+/* Footer Section Start */
+#footer{
+    color: #363f40;
+    background-color: #fff;
+    font-size: 14px;
+}
+.footer .footer-top {
+    padding-top: 50px;
+    border-top: 1px solid color-mix(in srgb, #363f40, transparent 90%);
+}
+.footer .footer-about .logo {
+    line-height: 1;
+    margin-bottom: 25px;
+}
+.footer .footer-about .logo span {
+    color: #363f40;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.footer .footer-contact p {
+    margin-bottom: 5px;
+}
+.footer .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid color-mix(in srgb, #363f40, transparent 50%);
+    font-size: 16px;
+    color: color-mix(in srgb, #363f40, transparent 20%);
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.footer .social-links a:hover {
+    color: #099aa7;
+    border-color: #099aa7;
+}
+.footer .footer-links {
+    margin-bottom: 30px;
+}
+.footer h4 {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+}
+.footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer .footer-links ul li:first-child {
+    padding-top: 0;
+}
+.footer .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.footer .footer-links ul a {
+    color: color-mix(in srgb, #363f40, transparent 30%);
+    display: inline-block;
+    line-height: 1;
+}
+/* Footer Section End */
