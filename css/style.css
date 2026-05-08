@@ -847,4 +847,61 @@ a {
     font-weight: 400;
 }
 
+.call-card{
+    background: #fff;
+    padding: 48px 32px;
+    border-radius: 12px;
+    text-align: center;
+    height: 100%;
+    transition: all 0.4s ease;
+    border: 1px solid color-mix(in srgb, #363f40, transparent 92%);
+    margin-bottom: 32px;
+}
+.call-card:hover{
+    box-shadow: 0 25px 50px 
+ color-mix(in srgb, #363f40, transparent 88%);
+    border-color: 
+ color-mix(in srgb, #099aa7, transparent 80%);
+}
+.call-card-icon{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: color-mix(in srgb, #099aa7, transparent 92%);
+    border-radius: 50%;
+    transition: all 0.4s ease;
+}
+.call-card:hover .call-card-icon{
+    background: #099aa7;
+}
+.call-card-icon i{
+    font-size: 32px;
+    color: #099aa7;
+    transition: all 0.4s ease;
+}
+.call-card:hover i{
+    color: #fff;
+}
+.call-card-content h4{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 19px;
+    color: #1f2f31;
+}
+.call-card-content p{
+    color: color-mix(in srgb, #363f40, transparent 30%);
+    line-height: 1.7;
+    margin-bottom: 24px;
+}
+.call-card-content a{
+    color: #099aa7;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
 /* Call to Action Section End */
