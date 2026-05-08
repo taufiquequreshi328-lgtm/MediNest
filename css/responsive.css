@@ -4,7 +4,10 @@
         display: block;
         text-align: right;
     }
-
+    .menu-toggle i{
+        font-size: 35px;
+        color: #1f2f31;
+    }
     .navbar{
         position: absolute;
         top: 100%;
@@ -35,6 +38,10 @@
 }
 
 @media(max-width:767px){
+    .menu-toggle i{
+        font-size: 35px !important;
+        color: #1f2f31;
+    }
     .sec-pad{
         padding: 80px 5px !important;
     }
@@ -46,9 +53,11 @@
     .call-action-content h2 {font-size: 35px !important; text-align: center;}
 }
 @media(max-width:571px){
-    .sec-pad{
-        padding: 60px 10px !important;
+    .menu-toggle i{
+        font-size: 35px !important;
+        color: #1f2f31;
     }
+    .sec-pad{padding: 60px 10px !important;}
     .bnr-content h1{font-size: 35px !important; text-align: center;}
     .department-group h2 {font-size: 32px !important;}
     .depart-cta {padding: 80px 25px !important;}
