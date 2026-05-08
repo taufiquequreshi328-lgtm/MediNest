@@ -758,7 +758,9 @@ a {
             color-mix(in srgb, #fff, #099aa7 3%) 100%);
     padding: 60px 0;
 }
-
+.call-action-group{
+    margin-bottom: 80px;
+}
 .call-action-content {
     padding-right: 32px;
 }
@@ -826,5 +828,25 @@ a {
     border-radius: 12px;
     box-shadow: 0 20px 60px color-mix(in srgb, #363f40, transparent 85%);
 }
-
+.call-stat-group{
+    margin-bottom: 80px;
+    padding: 48px 0;
+    border-top: 1px solid color-mix(in srgb, #363f40, transparent 90%);
+    border-bottom: 1px solid color-mix(in srgb, #363f40, transparent 90%);
+}
+.call-stat-items{
+    text-align: center;
+    padding: 16px;
+}
+.call-stat-items span{
+    font-size: 40px;
+    font-weight: 300;
+    color: #099aa7;
+    margin-bottom: 8px;
+}
+.call-stat-items p{
+    font-size: 16px;
+    color: color-mix(in srgb, #363f40, transparent 40%);
+    font-weight: 400;
+}
 /* Call to Action Section End */
