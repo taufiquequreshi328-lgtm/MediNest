@@ -35,6 +35,25 @@
     }
     .bnr-content h1{font-size: 44px !important; text-align: center;}
     .bnr-content p{text-align: center;}
+     .start-group,
+    .quick-items,
+    .cta-btns,
+    .ct-banner-content,
+    .metric-row{
+        gap: 20px !important;
+    }
+
+    .about-image-grid{
+        flex-direction: column;
+    }
+
+    .secondary-image{
+        flex-direction: row !important;
+    }
+
+    .depart-row{
+        overflow: hidden;
+    }
 }
 
 @media(max-width:767px){
@@ -51,6 +70,9 @@
     .depart-cta-content h3 {font-size: 28px !important;}
     .depart-cta {padding: 80px 25px !important;}
     .call-action-content h2 {font-size: 35px !important; text-align: center;}
+    .about-image-grid{
+        display: none !important;
+    }
 }
 @media(max-width:571px){
     .menu-toggle i{
