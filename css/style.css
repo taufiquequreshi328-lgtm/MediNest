@@ -533,7 +533,7 @@ a {
     transform: scale(1.1);
 }
 
-.depart-card{
+.depart-card {
     background: #fff;
     padding: 40px 32px;
     height: 100%;
@@ -542,7 +542,8 @@ a {
     position: relative;
     overflow: hidden;
 }
-.depart-card::before{
+
+.depart-card::before {
     content: "";
     position: absolute;
     top: 0;
@@ -554,14 +555,17 @@ a {
     transform-origin: left;
     transition: transform 0.4s ease;
 }
-.depart-card:hover{
+
+.depart-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 20px 60px color-mix(in srgb, #363f40, transparent 85%);
 }
-.depart-card:hover::before{
+
+.depart-card:hover::before {
     transform: scaleX(1);
 }
-.depart-card-icon{
+
+.depart-card-icon {
     width: 80px;
     height: 80px;
     display: flex;
@@ -572,26 +576,31 @@ a {
     margin-bottom: 24px;
     transition: all 0.3s ease;
 }
-.depart-card:hover .depart-card-icon{
+
+.depart-card:hover .depart-card-icon {
     transform: scale(1.1);
 }
-.depart-card-icon i{
+
+.depart-card-icon i {
     font-size: 32px;
     color: #099aa7;
 }
-.depart-card-content h3{
+
+.depart-card-content h3 {
     font-size: 24px;
     font-weight: 400;
     color: #1f2f31;
     margin-bottom: 16px;
 }
-.depart-card-content p{
+
+.depart-card-content p {
     font-size: 16px;
     line-height: 1.7;
     color: color-mix(in srgb, #363f40, transparent 30%);
     margin-bottom: 32px;
 }
-.depart-stat-items span{
+
+.depart-stat-items span {
     display: block;
     font-size: 24px;
     font-weight: 600;
@@ -599,26 +608,30 @@ a {
     line-height: 1;
     text-align: center;
 }
-.depart-stat-items p{
+
+.depart-stat-items p {
     font-size: 12px;
     color: color-mix(in srgb, #363f40, transparent 40%);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-top: 4px;
 }
-.depart-cta{
+
+.depart-cta {
     text-align: center;
     padding: 80px 40px;
     background: color-mix(in srgb, #099aa7, transparent 96%);
     border-radius: 8px;
 }
-.depart-cta-content h3{
+
+.depart-cta-content h3 {
     font-size: 32px;
     font-weight: 300;
     color: #1f2f31;
     margin-bottom: 16px;
 }
-.depart-cta-content p{
+
+.depart-cta-content p {
     font-size: 18px;
     line-height: 1.7;
     color: color-mix(in srgb, #363f40, transparent 25%);
@@ -627,7 +640,8 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
-.depart-cta-content a{
+
+.depart-cta-content a {
     background-color: #099aa7;
     border: 2px solid #099aa7;
     color: #fff;
@@ -639,9 +653,178 @@ a {
     transition: all 0.3s ease;
     display: inline-block;
 }
-.depart-cta-content a:hover{
+
+.depart-cta-content a:hover {
     background-color: transparent;
     color: #099aa7;
     transform: translateY(-2px);
 }
+
 /* Feature Section End */
+
+/* Service Section Start */
+#serviceSection {
+    padding: 120px 0;
+}
+
+.service-card {
+    position: relative;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.service-image {
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+}
+
+.service-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.service-image::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background: linear-gradient(to top, #fff, transparent);
+}
+
+.service-content {
+    padding: 30px 25px;
+}
+
+.service-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #1f2f31;
+    line-height: 1.4;
+}
+
+.service-content p {
+    color: color-mix(in srgb, #363f40, transparent 20%);
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.service-content a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #099aa7;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.service-content a:hover {
+    color: #1f2f31;
+    gap: 12px;
+}
+
+.service-content a:hover i {
+    transform: translateX(3px);
+}
+
+.service-content i {
+    font-size: 12px;
+    transition: transform 0.3s ease;
+}
+
+/* Service Section End */
+
+/* Call to Action Section Start */
+
+#callToAction {
+    background: linear-gradient(180deg, #f7f9f9 0%,
+            color-mix(in srgb, #fff, #099aa7 3%) 100%);
+    padding: 60px 0;
+}
+
+.call-action-content {
+    padding-right: 32px;
+}
+
+.call-action-content h2 {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: #1f2f31;
+}
+
+.call-action-content p {
+    font-size: 19px;
+    line-height: 1.8;
+    color: color-mix(in srgb, #363f40, transparent 25%);
+    margin-bottom: 40px;
+}
+
+.call-action-content a:nth-child(1) {
+    background: #099aa7;
+    color: #fff;
+    padding: 18px 40px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    transition: all 0.4s ease;
+    display: inline-block;
+}
+
+.call-action-content a:hover:nth-child(1) {
+    background: color-mix(in srgb, #099aa7, black 15%);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px color-mix(in srgb, #099aa7, transparent 70%);
+}
+
+.call-action-content a:nth-child(2) {
+    display: inline-flex;
+    align-items: center;
+    color: #099aa7;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+.call-to-action-img {
+    position: relative;
+}
+
+.call-to-action-img::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: 20px;
+    bottom: 20px;
+    background: color-mix(in srgb, #099aa7, transparent 95%);
+    border-radius: 12px;
+    z-index: -1;
+}
+
+.call-to-action-img img {
+    border-radius: 12px;
+    box-shadow: 0 20px 60px color-mix(in srgb, #363f40, transparent 85%);
+}
+
+/* Call to Action Section End */
