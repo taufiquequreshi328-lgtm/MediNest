@@ -14,4 +14,11 @@ AOS.init({
     once: true,
     offset: 100,
     easing: 'ease-in-out',
-  });
+});
+
+const menuToggle = document.getElementById("menuToggle");
+const navbar = document.querySelector(".navbar");
+
+menuToggle.addEventListener("click", () => {
+    navbar.classList.toggle("active");
+});

@@ -9,6 +9,7 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -17,13 +18,19 @@
     <!-- Header Section Start -->
     <section id="topHeader">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-2">
+            <div class="row align-items-center justify-content-md-between">
+                <div class="col-lg-2 col-md-6 col-sm-6 col-4">
                     <div class="medi-logo">
                         <h2>Medi<span>Nest</span></h2>
                     </div>
                 </div>
-                <div class="col-lg-8">
+                <!-- Toggle Button -->
+                <div class="col-lg-8 col-md-2 col-sm-2 col-3">
+                    <div class="col-md-6 col-6 d-lg-none text-end">
+                        <div class="menu-toggle" id="menuToggle">
+                            <i class="bi bi-list"></i>
+                        </div>
+                    </div>
                     <div class="navbar justify-content-center">
                         <nav>
                             <ul class="d-flex">
@@ -38,7 +45,7 @@
                         </nav>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-4 col-sm-4 col-5">
                     <div class="top-btn">
                         <a href="#">Appointment</a>
                     </div>
@@ -67,7 +74,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7" data-aos="fade-left" data-aos-delay="100">
-                    <div class="bnr-content ps-5">
+                    <div class="bnr-content ps-lg-5 ps-md-0">
                         <div class="bnr-badge">
                             <span>Trusted Healthcare Provider</span>
                         </div>
@@ -75,7 +82,7 @@
                         <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci
                             porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
                         <div class="bnr-starts">
-                            <div class="start-group d-flex gap-5 align-items-center">
+                            <div class="start-group d-flex flex-wrap gap-5 align-items-center justify-content-sm-center justify-content-lg-start justify-content-center">
                                 <div class="start-items d-flex align-items-center gap-3">
                                     <i class="bi bi-award"></i>
                                     <div class="start-text d-flex flex-column">
@@ -100,14 +107,14 @@
                             </div>
                         </div>
                         <div class="cta-group">
-                            <div class="cta-btns d-flex gap-4">
+                            <div class="cta-btns d-flex flex-wrap gap-4 justify-content-sm-center justify-content-lg-start justify-content-center">
                                 <a href="#">Schedule Consultation</a>
                                 <a href="#">
                                     <i class="bi bi-play-circle"></i>
                                     Watch Our Story
                                 </a>
                             </div>
-                            <div class="quick-items d-flex gap-5">
+                            <div class="quick-items d-flex flex-wrap gap-5 justify-content-sm-center justify-content-lg-start justify-content-center ">
                                 <a href="#">
                                     <i class="bi bi-calendar-check"></i>
                                     <span>Find Available Times</span>
@@ -130,7 +137,7 @@
     <!-- Banner Section End -->
 
     <!-- About Section Start -->
-    <section id="aboutSection">
+    <section id="aboutSection" class="sec-pad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center mb-5 about-top-content" data-aos="fade-up"
@@ -157,7 +164,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5" data-aos="fade-left" data-aos-delay="100">
-                    <div class="about-content ps-4">
+                    <div class="about-content ps-lg-4 ps-md-0 pt-md-4 pt-sm-3 pt-3">
                         <div class="content-items">
                             <div class="about-content-box">
                                 <div class="content-box-icon">
@@ -205,7 +212,7 @@
                                     <p>Lives Improved</p>
                                 </div>
                             </div>
-                            <div class="cta-btns d-flex gap-4">
+                            <div class="cta-btns d-flex flex-wrap gap-4">
                                 <a href="#">Explore Our Services</a>
                                 <a href="#">
                                     <i class="bi bi-telephone"></i>
@@ -222,7 +229,7 @@
 
     <!-- Feature Section Start -->
 
-    <section id="featureSection">
+    <section id="featureSection" class="sec-pad">
         <div class="container">
             <div class="row">
                 <div class="feature-top-content text-center pb-5" data-aos="fade-up" data-aos-delay="100">
@@ -266,14 +273,14 @@
                         </div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-down" data-aos-delay="100">
-                        <div class="department-image">
+                        <div class="department-image mt-lg-0 mt-md-4 mt-sm-3 mt-3">
                             <img src="images/emergency-3.webp" alt="Emergency">
                         </div>
                     </div>
                 </div>
                 <div class="derpatment-card-grid depart-row">
                     <div class="row">
-                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100">
                             <div class="depart-card">
                                 <div class="depart-card-icon">
                                     <i class="bi bi-heart-pulse-fill"></i>
@@ -295,7 +302,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100">
                             <div class="depart-card">
                                 <div class="depart-card-icon">
                                     <i class="bi bi-bag-plus"></i>
@@ -317,7 +324,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100">
                             <div class="depart-card">
                                 <div class="depart-card-icon">
                                     <i class="bi bi-fork-knife"></i>
@@ -339,7 +346,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100">
                             <div class="depart-card">
                                 <div class="depart-card-icon">
                                     <i class="bi bi-person-standing"></i>
@@ -361,7 +368,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100">
                             <div class="depart-card">
                                 <div class="depart-card-icon">
                                     <i class="bi bi-eye"></i>
@@ -383,7 +390,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100">
                             <div class="depart-card">
                                 <div class="depart-card-icon">
                                     <i class="bi bi-bandaid"></i>
@@ -421,7 +428,7 @@
 
     <!-- Feature Section End -->
     <!-- Service Section Start -->
-    <section id="serviceSection">
+    <section id="serviceSection" class="sec-pad">
         <div class="container">
             <div class="row">
                 <div class="feature-top-content text-center pb-5" data-aos="fade-up" data-aos-delay="100">
@@ -430,7 +437,7 @@
                 </div>
             </div>
             <div class="row gy-4">
-                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-card">
                         <div class="service-image">
                             <img src="images/cardiology-2.webp" alt="Cardiology">
@@ -446,7 +453,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-card">
                         <div class="service-image">
                             <img src="images/neurology-3.webp" alt="Oncology">
@@ -462,7 +469,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-card">
                         <div class="service-image">
                             <img src="images/orthopedics-1.webp" alt="Cardiology">
@@ -478,7 +485,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-card">
                         <div class="service-image">
                             <img src="images/pediatrics-4.webp" alt="Cardiology">
@@ -494,7 +501,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-card">
                         <div class="service-image">
                             <img src="images/oncology-2.webp" alt="Cardiology">
@@ -510,7 +517,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-card">
                         <div class="service-image">
                             <img src="images/laboratory-3.webp" alt="Cardiology">
@@ -532,23 +539,23 @@
     <!-- Service Section End -->
 
     <!-- Call to Action Section Start -->
-    <section id="callToAction">
+    <section id="callToAction" class="sec-pad">
         <div class="container">
             <div class="call-action-group">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="call-action-content">
+                        <div class="call-action-content text-lg-start text-md-center text-center">
                             <h2>Exceptional Care for Your Health Journey</h2>
                             <p>Discover comprehensive healthcare services delivered with compassion and expertise. Our
                                 dedicated team is committed to providing personalized medical care that puts you first.
                             </p>
-                            <div class="call-action-btn d-flex gap-3">
+                            <div class="call-action-btn gap-3">
                                 <a href="#">Schedule Consulation</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="call-to-action-img">
+                        <div class="call-to-action-img mt-lg-0 mt-md-4 mt-sm-3 mt-3">
                             <img src="images/showcase-2.webp" alt="Showcase">
                         </div>
                     </div>
@@ -556,25 +563,25 @@
             </div>
             <div class="call-stat-group">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div class="call-stat-items">
                             <span>25+</span>
                             <p>Years Experience</p>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div class="call-stat-items">
                             <span>15K+</span>
                             <p>Happy Patients</p>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div class="call-stat-items">
                             <span>50+</span>
                             <p>Medical Experts</p>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div class="call-stat-items">
                             <span>24/7</span>
                             <p>Emergency Care</p>
@@ -584,7 +591,7 @@
             </div>
             <div class="call-card-group">
                 <div class="row">
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100">
                         <div class="call-card">
                             <div class="call-card-icon">
                                 <i class="bi bi-heart-pulse-fill"></i>
@@ -597,7 +604,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100">
                         <div class="call-card">
                             <div class="call-card-icon">
                                 <i class="bi bi-meta"></i>
@@ -610,7 +617,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="100">
                         <div class="call-card">
                             <div class="call-card-icon">
                                 <i class="bi bi-shield"></i>
@@ -626,18 +633,18 @@
                 </div>
             </div>
             <div class="call-contact-banner" data-aos="fade-up" data-aos-delay="100">
-                <div class="ct-banner-content d-flex align-items-center justify-content-between">
+                <div class="ct-banner-content d-flex flex-wrap align-items-center justify-content-lg-between justify-content-md-center justify-content-center">
                     <div class="ct-info d-flex align-items-center">
                         <div class="ct-icon">
                             <i class="bi bi-telephone"></i>
                         </div>
-                        <div class="ct-text">
+                        <div class="ct-text text-lg-start text-md-center">
                             <h5>Need Immediate Assistance?</h5>
                             <p>Our medical team is available around the clock for urgent consultations and emergency
                                 support.</p>
                         </div>
                     </div>
-                    <div class="ct-action-btn">
+                    <div class="ct-action-btn mt-lg-0 mt-md-4 mt-sm-3 mt-3">
                         <a href="#">
                             <i class="bi bi-telephone-fill"></i>
                             (555) 123-4567
