@@ -981,6 +981,179 @@ a {
 
 /* Call to Action Section End */
 
+
+/*---------------------- Subpage Banner CSS Start ---------------------------*/
+/*---------------------- About Page CSS Start ---------------------------*/
+#aboutPageSection{
+    padding: 120px 0;
+}
+.about-top-page-content, .about-page-image, .misson-section{
+    margin-bottom: 100px;
+}
+.about-top-page-content h2{
+    font-size: 51px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 32px;
+    letter-spacing: -0.02em;
+}
+.about-top-page-content p{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: color-mix(in srgb, #363f40, transparent 25%);
+    max-width: 700px;
+    margin: 0 auto;
+}
+.about-page-img-content h3{
+    font-size: 38px;
+    font-weight: 300;
+    margin-bottom: 48px;
+    line-height: 1.3;
+}
+.about-stat-number span{
+    font-size: 48px;
+    font-weight: 200;
+    color: #099aa7;
+    line-height: 1;
+}
+.about-stat-content h5{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    color: #1f2f31;
+}
+.about-stat-content p{
+    font-size: 15px;
+    color: color-mix(in srgb, #363f40, transparent 30%);
+    margin: 0;
+    line-height: 1.6;
+}
+.misson-card{
+    padding: 0 16px;
+    height: 100%;
+}
+.misson-card-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #099aa7, color-mix(in srgb, #099aa7, #6c5ce7 20%));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 2rem;
+    transition: transform 0.3s ease;
+}
+.misson-card:hover .misson-card-icon{
+    transform: translateY(-5px) scale(1.05);
+}
+.misson-card-icon  i {
+    font-size: 28px;
+    color: #fff;
+}
+.misson-card h4 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    color: #1f2f31;
+}
+.misson-card p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: color-mix(in srgb, #363f40, transparent 25%);
+    margin: 0;
+}
+.spcl-content h2 {
+    font-size: 38px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+.spcl-content p {
+    font-size: 17px;
+    color: color-mix(in srgb, #363f40, transparent 30%);
+    margin-bottom: 64px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+}
+.spcl-items {
+    text-align: center;
+    padding: 32px 16px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid color-mix(in srgb, #363f40, transparent 90%);
+    transition: all 0.3s ease;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.spcl-items:hover {
+    transform: translateY(-8px);
+    border-color: #099aa7;
+    box-shadow: 0 10px 30px color-mix(in srgb, #099aa7, transparent 85%);
+}
+.spcl-item-icon i {
+    font-size: 35px;
+    color: #099aa7;
+    margin-bottom: 16px;
+    transition: color 0.3s ease;
+}
+
+.spcl-items:hover .spcl-item-icon i {
+    color: #099aa7;
+}
+.spcl-items span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #1f2f31;
+    transition: color 0.3s ease;
+}
+/*---------------------- About Page CSS Start ---------------------------*/
+
+#subPageBanner{
+    padding: 100px 5px 80px;
+}
+.sub-page-banner-content{
+    padding: 80px 0;
+}
+.sub-page-banner-content h1{
+    font-size: 38px;
+    font-weight: 500;
+}
+.breadcrumb{
+    background-color: color-mix(in srgb, #363f40, transparent 96%);
+    padding: 20px 0;
+}
+.subpage-navbar nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.subpage-navbar ul li a.active{
+    color: #099aa7;
+}
+.subpage-navbar ul li a{
+    color: #363f40;
+    transition: 0.3s;
+    padding-right: 5px;
+}
+.subpage-navbar nav ul li+li::before {
+    content: "/";
+    display: inline-block;
+    padding-right: 10px;
+    color: color-mix(in srgb, #363f40, transparent 70%);
+}
+
+/*---------------------- Subpage Banner CSS End ---------------------------*/
+
 /* Footer Section Start */
 #footer{
     color: #363f40;
