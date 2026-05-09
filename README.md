@@ -1,2 +1,0 @@
-# MediNest
-Best Animated Website
