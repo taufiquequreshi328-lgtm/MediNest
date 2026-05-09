@@ -67,14 +67,15 @@ a {
     list-style: none;
     transition: all .6s;
     cursor: pointer;
+    color: #363f40 !important;
 }
 
 .navbar ul li a.active {
-    color: #099aa7;
+    color: #099aa7 !important;
 }
 
 .navbar ul li a:hover {
-    color: #099aa7;
+    color: #099aa7 !important;
 }
 
 .top-btn a {
