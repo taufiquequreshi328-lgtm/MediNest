@@ -60,7 +60,7 @@ a {
     margin: 0;
 }
 
-.navbar nav ul li {
+.navbar nav ul li a {
     padding: 18px 15px;
     font-size: 16px;
     font-weight: 400;
@@ -69,11 +69,11 @@ a {
     cursor: pointer;
 }
 
-.navbar ul li.active {
+.navbar ul li a.active {
     color: #099aa7;
 }
 
-.navbar ul li:hover {
+.navbar ul li a:hover {
     color: #099aa7;
 }
 
