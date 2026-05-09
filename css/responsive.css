@@ -73,6 +73,8 @@
     .about-image-grid{
         display: none !important;
     }
+    .cta-btns a:nth-child(1){display: block !important; width: 100%; text-align: center;}
+    .cta-btns a:nth-child(2){display: block !important; width: 100%; text-align: center;}
 }
 @media(max-width:571px){
     .menu-toggle i{
