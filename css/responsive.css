@@ -75,6 +75,10 @@
     }
     .cta-btns a:nth-child(1){display: block !important; width: 100%; text-align: center;}
     .cta-btns a:nth-child(2){display: block !important; width: 100%; text-align: center;}
+    .about-top-page-content h2 {font-size: 37px !important;}
+    .about-top-page-content p {font-size: 18px !important;}
+    .about-page-img-content h3 {font-size: 28px !important;}
+     .about-page-image {margin-bottom: 60px !important;}
 }
 @media(max-width:571px){
     .menu-toggle i{
@@ -87,4 +91,6 @@
     .depart-cta {padding: 80px 25px !important;}
     .call-action-content h2 {font-size: 30px !important; text-align: center;}
     .bnr-card-content {position: static !important; margin: 30px 5px;}
+    .about-stat-number span {font-size: 30px !important;}
+    #subPageBanner {padding: 100px 5px 0px !important;}
 }
